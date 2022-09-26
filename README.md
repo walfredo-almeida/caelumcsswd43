@@ -4,7 +4,7 @@
 ## curso caelum.
 
  …or create a new repository on the command line
-- ```
+```
 echo "# caelumcsswd43" >> README.md
 git init
 git add README.md
@@ -15,7 +15,7 @@ git push -u origin main
 ```
 
 …or push an existing repository from the command line
- ```
+```
 git remote add origin https://github.com/walfredo-almeida/caelumcsswd43.git
 git branch -M main
 git push -u origin main
