@@ -122,3 +122,58 @@ background-color: #f5dcdc;
 .mais-vendidos {
 background-color: #dcdcf5;
 }
+footer {
+background-image: url(../img/fundo-rodape.png);
+clear: both;
+padding: 20px 0;
+}
+footer .container {
+position: relative;
+}
+.social {
+position: absolute;
+top: 6px;
+right: 0;
+}
+.social li {
+float: left;
+margin-left: 25px;
+}
+.social a {
+/* tamanho da imagem */
+height: 32px;
+width: 32px;
+/* image replacement */
+display: block;
+text-indent: -9999px;
+}
+.social a[href*="facebook.com"] {
+background-image: url(../img/facebook.png);
+}
+.social a[href*="twitter.com"] {
+background-image: url(../img/twitter.png);
+}
+.social a[href*="plus.google.com"] {
+background-image: url(../img/googleplus.png);
+}
+.destaque {
+position: relative;
+}
+.pause,
+.play {
+display: block;
+position: absolute;
+left: 250px;
+top: 15px;
+}
+.pause {
+border-left: 10px solid #900;
+border-right: 10px solid #900;
+height: 30px;
+width: 5px;
+}
+.play {
+border-left: 25px solid #900;
+border-bottom: 15px solid transparent;
+border-top: 15px solid transparent;
+}
