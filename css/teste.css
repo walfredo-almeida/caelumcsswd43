@@ -1,0 +1,11 @@
+li:first-child {
+color: red;
+}
+li:last-child {
+color: blue;
+}
+
+li:nth-child(3) { 
+color: gris; }
+li:nth-child(3):hover { 
+    color: green; }
